@@ -1,5 +1,5 @@
 {
-  "name": "mergepdfaf",
+  "name": "mergepdf",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -12,10 +12,12 @@
     "blob": "^0.1.0",
     "filereader": "^0.10.3",
     "jsdom": "^17.0.0",
-    "jspdf": "^2.3.1",
+    "jspdf": "^2.5.1",
     "jspdf-yworks": "^2.1.1",
     "svg-to-pdfkit": "^0.1.8",
-    "svg2pdf.js": "^2.1.0"
+    "svg2pdf.js": "^2.2.4",
+    "@azure/functions": "^4.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "src/{index.js,functions/*.js}"
 }
